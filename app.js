@@ -10,5 +10,5 @@ let mainObj={
         }    
     }
 }
-let layer4={...mainObj,obj1,obj2,obj3,obj4}
+let layer4={...mainObj.obj1.obj2.obj3.obj4}
 console.log(layer4)
